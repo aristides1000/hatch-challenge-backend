@@ -18,6 +18,10 @@ gem 'puma', '~> 5.0'
 
 # devise gem
 gem 'devise'
+# devise-jwt gem
+gem 'devise-jwt'
+# rack-cors gem
+gem 'rack-cors'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
