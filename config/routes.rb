@@ -5,4 +5,5 @@ Rails.application.routes.draw do
                 registrations: 'users/registrations'
             }
   get '/member-data', to: 'members#show'
+  get '/logged_user', to: 'logged_users#index'
 end
