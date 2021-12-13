@@ -1,7 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe "Addresses", type: :request do
-  describe "GET /index" do
-    pending "add some examples (or delete) #{__FILE__}"
+RSpec.describe 'AddressesController', type: :request do
+  describe "List a given user's addresses" do
+    it "Returns the list of the user's reservations" do
+      get '/addresses'
+      expect(response).to_not have_http_status(:ok)
+    end
   end
 end
