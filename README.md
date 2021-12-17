@@ -1,5 +1,3 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Awesome Events (Back-End)!
 
 ## Live Version
